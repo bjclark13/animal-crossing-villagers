@@ -344,4 +344,3 @@ const villagers = [
   },
 ];
 
-console.log(`We have ${villagers.length} villagers!`);
