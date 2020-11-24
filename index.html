@@ -21,113 +21,58 @@
     <main>
         <h1>Check our <span class="villagers-count">{{Villager count goes here}}</span> happy villagers!</h1>
 
+        <form id="new-villager">
+            <p>
+                <!--Name-->
+                <label>
+                    Name:
+                    <input name="nickname" id="nickname" />
+                </label>
+            </p>
+
+            <p>
+                <!--Personality-->
+                <label>
+                    Personality:
+                    <input name="personality" id="personality" />
+                </label>
+            </p>
+
+            <p>
+                <!--Gender-->
+                <label>
+                    Gender:
+                    <input name="gender" id="gender" />
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Catch Phrase:
+                    <textarea name="catch-phrase" id="catch-phrase"></textarea>
+                </label>
+            </p>
+
+            <button>Add Villager</button>
+
+        </form>
+
         <section class="villagers">
-            <div class="villager-bio" style="background-color: #e8b010; color: #fffce9" id="villager-1">
-                <img class="villager-image" src="https://acnhapi.com/v1/images/villagers/12" alt="Villager 1 profile">
-                <h2 class="villager-name">Nate</h2>
-    
-                <div class="more-info hidden">
-                    <ul>
-                        <li>Personality: <strong><span class="personality">Lazy</span></strong></li>
-                        <li>Gender: <strong><span class="gender">Male</span></strong></li>
-                        <li>Catch Phrase: <strong><span class="catch-phrase">yawwwn</span></strong></li>
-                    </ul>
-                </div>
-    
-                <button style="color: #e8b010; background-color: #fffce9; border-color: #e8b010">Toggle More Information</button>
-            </div>
-
-            <div class="villager-bio" id="villager-2">
-                <img class="villager-image" src="" alt="Villager 2 profile">
-                <h2 class="villager-name">{{Villager Name goes here}}</h2>
-                 
+            <!-- 
+                <div class="villager-bio">
+                <h2>BJ</h2>
                 <div class="more-info">
                     <ul>
-                        <li>Personality: <strong><span class="personality">{{Personality goes here}}</span></strong></li>
-                        <li>Gender: <strong><span class="gender">{{Gender}}</span></strong></li>
-                        <li>Catch Phrase: <strong><span class="catch-phrase">{{Catch phrase goes here}}</span></strong></li>
-                    </ul>
-                </div>
-    
-                <button>Toggle More Information</button>
-            </div>
+                        <li> Personality: <grumpy></li>
+                        <li> Gender: <grumpy></li>
+                        <li> Catch Phrase: <grumpy></li>
 
-            <div class="villager-bio" id="villager-3">
-                <img class="villager-image" src="" alt="Villager 3 profile">
-                <h2 class="villager-name">{{Villager Name goes here}}</h2>
-    
-                <div class="more-info">
-                    <ul>
-                        <li>Personality: <strong><span class="personality">{{Personality goes here}}</span></strong></li>
-                        <li>Gender: <strong><span class="gender">{{Gender}}</span></strong></li>
-                        <li>Catch Phrase: <strong><span class="catch-phrase">{{Catch phrase goes here}}</span></strong></li>
-                    </ul>
+                        </ul>
                 </div>
-    
-                <button>Toggle More Information</button>
-            </div>
-
-            <div class="villager-bio" id="villager-4">
-                <img class="villager-image" src="" alt="Villager 4 profile">
-                <h2 class="villager-name">{{Villager Name goes here}}</h2>
-    
-                <div class="more-info">
-                    <ul>
-                        <li>Personality: <strong><span class="personality">{{Personality goes here}}</span></strong></li>
-                        <li>Gender: <strong><span class="gender">{{Gender}}</span></strong></li>
-                        <li>Catch Phrase: <strong><span class="catch-phrase">{{Catch phrase goes here}}</span></strong></li>
-                    </ul>
-                </div>
-    
-                <button>Toggle More Information</button>
-            </div>
-
-            <div class="villager-bio" id="villager-5">
-                <img class="villager-image" src="" alt="Villager 5 profile">
-                <h2 class="villager-name">{{Villager Name goes here}}</h2>
-    
-                <div class="more-info">
-                    <ul>
-                        <li>Personality: <strong><span class="personality">{{Personality goes here}}</span></strong></li>
-                        <li>Gender: <strong><span class="gender">{{Gender}}</span></strong></li>
-                        <li>Catch Phrase: <strong><span class="catch-phrase">{{Catch phrase goes here}}</span></strong></li>
-                    </ul>
-                </div>
-    
-                <button>Toggle More Information</button>
-            </div>
-
-            <div class="villager-bio" id="villager-6">
-                <img class="villager-image" src="" alt="Villager 6 profile">
-                <h2 class="villager-name">{{Villager Name goes here}}</h2>
-    
-                <div class="more-info">
-                    <ul>
-                        <li>Personality: <strong><span class="personality">{{Personality goes here}}</span></strong></li>
-                        <li>Gender: <strong><span class="gender">{{Gender}}</span></strong></li>
-                        <li>Catch Phrase: <strong><span class="catch-phrase">{{Catch phrase goes here}}</span></strong></li>
-                    </ul>
-                </div>
-    
-                <button>Toggle More Information</button>
-            </div>
-
-            <div class="villager-bio" id="villager-7">
-                <img class="villager-image" src="" alt="Villager 7 profile">
-                <h2 class="villager-name">{{Villager Name goes here}}</h2>
-    
-                <div class="more-info">
-                    <ul>
-                        <li>Personality: <strong><span class="personality">{{Personality goes here}}</span></strong></li>
-                        <li>Gender: <strong><span class="gender">{{Gender}}</span></strong></li>
-                        <li>Catch Phrase: <strong><span class="catch-phrase">{{Catch phrase goes here}}</span></strong></li>
-                    </ul>
-                </div>
-    
-                <button>Toggle More Information</button>
-            </div>
+            </div>     
+    -->
+            <!-- JS to populate this content -->
         </section>
-
     </main>
 
     <script src="./villagers.js"></script>
